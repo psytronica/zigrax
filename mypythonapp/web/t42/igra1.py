@@ -19,6 +19,7 @@ def main(t42):
 
     t42.pausa({"time" : "3000", "do" : "func2"})
 
+
 def func2(t42):
     t42.viewport.init(
         {"id":"tea3", "width":"200px", "height": "150px", "x": "70px", "y": "330px",
