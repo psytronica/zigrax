@@ -8,6 +8,7 @@ def main(t42):
          "effect": "slide", "effectTime": "1000"}
     )
 
+
     t42.viewport.init(
         {"id":"tea2",
          "width":"300px", "height": "200px", "x": "20px", "y": "30px",
