@@ -1,0 +1,28 @@
+body{
+    background:#ffc;
+}
+.t42igra{
+    width:600px;
+    height:500px;
+    margin:10px auto;
+    border:3px double green;
+    background:white;
+    position:relative;
+}
+.t42viewport_wrapper,
+.t42viewport,
+.t42viewport_bg{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.t42viewport{
+    overflow:hidden;
+}
+.t42viewport.t42scroll{
+    overflow:auto;
+}
+.t42viewport_bg>img{
+    width:100%;
+    height:100%;
+}
